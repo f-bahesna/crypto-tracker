@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-const Layout = ({children, title = "Cree-py"}) => {
+const Layout = ({children, title = "Dompet Koin"}) => {
     return (
         <div className="layout">
         <Head>
