@@ -1,12 +1,14 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-const Layout = ({children, title = "Crypto Stalker"}) => {
+const Layout = ({children, title = "Cree-py"}) => {
     return (
         <div className="layout">
         <Head>
             <title>{title}</title>
             <link rel="icon" href="/favicon.ico" />
+            <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
         </Head>
         <header className="header">
            <Link href="/" passHref>

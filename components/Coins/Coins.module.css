@@ -33,10 +33,12 @@
 .coin_h1{
     font-size: 16px;
     width: 150px;
+    width: 100px;
 }
 
 .coin_symbol{
     text-transform: uppercase;
+    width: fit-content;
 }
 
 .coin_data{
@@ -47,11 +49,11 @@
 }
 
 .coin_price{
-    width: 110px;
+    width: 150px;
 }
 
 .coin_volume{
-    width: 166px;
+    width: 199px;
 }
 
 .coin_marketcap{
