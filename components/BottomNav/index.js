@@ -16,19 +16,17 @@ const ButtonLink = ({className, href,hrefAs,children}) => (
     )
 
 const BottomNav = () => {
+
     return (
-        <>
-            <div className="coin_app">
-                <BottomNavigation 
-                className={classes.main}
-                showLabels
-                >
-                <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/exchanger`}><CreditCardIcon/>Exchanger</Button>
-                <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/`}><AccountBalance/>Home</Button>
-                <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`#`}><TrendingUpIcon/>Trending</Button>
-                </BottomNavigation>
-            </div>
-        </>
+        <div className="coin_app">
+            <BottomNavigation 
+            className={classes.main}
+            >
+            <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/exchanger`}><CreditCardIcon/>Exchanger</Button>
+            <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/`}><AccountBalance/>Home</Button>
+            <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`#`}><TrendingUpIcon/>Trending</Button>
+            </BottomNavigation>
+        </div>
     )
 }
 
