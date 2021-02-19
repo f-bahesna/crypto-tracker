@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
 }
-
 .exchanger_id_background{
     background: 
         url('../../public/images/background.jpg')
@@ -13,7 +12,6 @@
     opacity: 0.9;
     box-shadow: inset 400px 500px 700px -500px #000000;
 }
-
 .row:after{
     content: "";
     display: table;
@@ -70,7 +68,7 @@
     color: aqua;
 }
 .ticker_section{
-    margin-top: 330px;
+    margin-top: 210px;
 }
 .each_ticker{
     padding-bottom:5px;
@@ -83,4 +81,44 @@
 }
 .green{
     color: #13c783;
+}
+
+@media only screen and (max-width: 500px) {
+    .exchanger_id_background{
+        background: 
+            url('../../public/images/background.jpg')
+            fixed
+            center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        box-shadow: inset 400px 500px 700px -500px #000000;
+    }
+    .column{
+        float: center;
+        width: 100%;
+        padding: 10px 20px;
+        min-height: 300px;
+        text-shadow: black 0 0 10px;
+        font-family: sans-serif;
+        font-size: x-small !important;
+    }
+    .media{
+        height: 200px;
+        width: 200px;
+        margin-left: 15px;
+        border-radius: 10px;
+        border: 3px solid black
+    }
+    .ticker_section{
+        margin-top: 700px !important;
+        margin-left: -375px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .ticker_section{
+        margin-top: 700px !important;
+        margin-left: -320px !important;
+    }
 }

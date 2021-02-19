@@ -36,7 +36,7 @@ const exchanger = ({result}) => {
                             src={result.image}
                             className={classes.media}
                         />
-                        <Typography variant="h1" component="div">
+                        <Typography variant="h4" component="div">
                             <Box textAlign="left" m={1}>
                                 {result.name}
                             </Box>
@@ -46,7 +46,7 @@ const exchanger = ({result}) => {
                                 Negara : {result.country}
                             </Box>
                         </Typography>
-                        <Typography variant="h5" component="div">
+                        <Typography noWrap variant="h5" component="div" spacing={2}>
                             <Box textAlign="left" m={1}>
                                 Tahun Didirikan : {result.year_established}
                             </Box>
