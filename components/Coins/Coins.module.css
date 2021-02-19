@@ -61,9 +61,11 @@
 }
 
 .red{
+    font-weight: bold;
     color: #f00606
 }
 
 .green{
     color: #13c783;
+    font-weight: bold;
 }

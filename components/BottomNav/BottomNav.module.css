@@ -1,0 +1,18 @@
+.main {
+    width: 1000px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #222531;
+}
+
+.menu{
+    background-color: #222531;
+    color: white;
+}
+
+.button{
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

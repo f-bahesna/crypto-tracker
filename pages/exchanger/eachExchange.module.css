@@ -1,0 +1,87 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.exchanger_id_background{
+    background: 
+        url('../../public/images/background.jpg')
+        fixed
+        center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.9;
+    box-shadow: inset 400px 500px 700px -500px #000000;
+}
+
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+    min-height: 300px;
+    text-shadow: black 0 0 10px;
+    font-family: sans-serif;
+    margin-bottom: 150px;
+}
+.media{
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 3px solid black
+}
+
+@media only screen and (max-width: 600px) {
+    .media{
+        height: 200px;
+        width: 200px;
+        margin-left: 15px;
+        border-radius: 10px;
+        border: 3px solid black
+    }
+    .column{
+        font-size: 0.5rem !important;
+        float: left;
+        width: 100%;
+        padding: 10px 20px;
+        min-height: 300px;
+        text-shadow: black 0 0 10px;
+        font-family: sans-serif;
+        margin-bottom: 150px;
+    }
+    .ticker_section{
+        margin-top: 850px !important;
+        margin-left: -440px;
+    }
+    .each_ticker{
+        display: table;
+    }
+}
+
+.text{
+    align-content: center;
+}
+.link:hover{
+    color: aqua;
+}
+.ticker_section{
+    margin-top: 330px;
+}
+.each_ticker{
+    padding-bottom:5px;
+    padding-right: 30px;
+    display: inline-block;
+}
+.red{
+    font-weight: bolder;
+    color: #f00606;
+}
+.green{
+    color: #13c783;
+}

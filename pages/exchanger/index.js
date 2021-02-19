@@ -6,7 +6,7 @@ import Style from '../../components/Exchanger/exchanger.module.css'
 const Exchanger = ({exchanger}) => {
     return (
         <div>
-            <div>
+            <div className={Style.exchanger_text_content}>
                 <Typography  variant="body2" color="white" component="h1">
                     <h1 className={Style.exchanger_title_page}>EXCHANGER</h1>
                 </Typography>
