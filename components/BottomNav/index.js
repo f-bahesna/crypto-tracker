@@ -24,7 +24,7 @@ const BottomNav = () => {
             >
             <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/exchanger`}><CreditCardIcon/>Exchanger</Button>
             <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/`}><AccountBalance/>Home</Button>
-            <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`#`}><TrendingUpIcon/>Trending</Button>
+            <Button className={classes.button} component={ButtonLink} variant="contained" color="primary" href={`/trending`}><TrendingUpIcon/>Trending</Button>
             </BottomNavigation>
         </div>
     )
